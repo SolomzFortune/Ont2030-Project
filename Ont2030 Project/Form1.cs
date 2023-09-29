@@ -21,5 +21,21 @@ namespace Ont2030_Project
         {
 
         }
+
+        private void btnStudent_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmStdLogin f2 = new FrmStdLogin();
+            f2.ShowDialog();
+
+        }
+
+        private void btnLecture_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmLecturer f3 = new frmLecturer();
+            f3.ShowDialog();
+
+        }
     }
 }
